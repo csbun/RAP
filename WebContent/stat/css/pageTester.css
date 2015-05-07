@@ -88,11 +88,6 @@ label .field {
 	margin-top: -1px;
 	border-radius: 0 0 3px 3px;
 }
-.block {
-	margin: 12px 0;
-	padding: 8px;
-	border: 1px dashed #DFDFDF;
-}
 
 .p8 {
 	padding: 8px;
@@ -177,6 +172,7 @@ input,textarea {
 }
 
 #divResBoard {
+	margin: 12px 0;
 }
 
 #divResBoardJson {

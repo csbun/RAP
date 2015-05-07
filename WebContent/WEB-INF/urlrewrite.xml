@@ -16,7 +16,7 @@
 			mockjs service
 		</note>
 		<from>^/mockjs/(\d*?)/(.*)$</from>
-		<to>/mock/createRule.action?id=$1&amp;pattern=/${escape:utf8:$2}</to>
+		<to type="redirect">/mock/createRule.action?id=$1&amp;pattern=/$2</to>
 		<set type="response-header" name="Access-Control-Allow-Origin">*</set>
 		<set type="response-header" name="Access-Control-Allow-Headers">Origin, X-Requested-With, Content-Type, Accept</set>
 	</rule>

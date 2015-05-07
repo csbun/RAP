@@ -160,7 +160,7 @@
                         var startMockNum = +ele.attr('data-start');
                         ele.html(startMockNum + (+data.mockNumToday));
                     }
-                    setTimeout(_logData, 2000);
+                    // setTimeout(_logData, 2000);
                 }
             });
         }

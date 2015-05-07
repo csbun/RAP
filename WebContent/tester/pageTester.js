@@ -247,14 +247,13 @@ YUI().use('handlebars', 'node', 'event', 'jsonp', 'jsonp-url', 'json-stringify',
             } else {
                 return val;
             }
-        });
+        }, '    ');
         
         var beginTime = Y.timeLog.time;
         if (!beginTime) return;
         var endTime = new Date().getTime();
         log('request end in:' + color(endTime - beginTime, RED) + 'ms.');
-        Y.one('#divResBoardJson').setHTML(jsonString.formatJS());
-
+        window.hljs.highlightBlock(Y.one('#divResBoardJson').setHTML(jsonString)._node);
         if (!form) {
             btn.removeClass('disabled');
             return;

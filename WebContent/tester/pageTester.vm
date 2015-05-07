@@ -12,6 +12,10 @@
         <script src="${staticRoot}/js/util/jsformat.js"></script>
         <script src="${staticRoot}/js/util/structureValidator.js"></script>
         <script src="${staticRoot}/js/util/mock-min.js"></script>
+
+        <!-- highlightjs.org -->
+        <script src="https://highlightjs.org/static/highlight.pack.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://highlightjs.org/static/styles/github.css" />
     </head>
     <body>
     #bodyNewStart
@@ -66,8 +70,8 @@
                 #end
                 </div>
             </div>
-            <div class="block" id="divResBoard">
-                <div id="divResBoardJson">ready</div>
+            <div id="divResBoard">
+                <pre><code id="divResBoardJson" class="hljs javascript">ready</code></pre>
                 <div id="divResBoardLog">
                     <div class="triggers clearfix">
                         <div class="trigger" id="expand-trigger">&#8592;</div>
