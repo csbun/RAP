@@ -17,3 +17,11 @@ In RAP, you can define the URL, response/request detail format, etc. By analyzin
 ## Contributors List 贡献者
 
 `@nunnly`, `@xinglie`
+
+## build
+
+### IDEA
+
+- Run/Debug Configuration -> add Tomcat Local Server -> Apply
+- Build -> Build Artifacts -> RAP:war exploded -> Build/Rebuild
+- out put in: out/artifacts/RAP
